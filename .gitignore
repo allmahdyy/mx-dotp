@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+sim_build/
+results.xml
+*.result.xml
+*.vcd
+*.fst
+syn/runs/
+paper/overleaf_upload.zip

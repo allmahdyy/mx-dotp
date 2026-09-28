@@ -1,0 +1,4 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| trunc24_e2m1xe2m1_k32_p0000 | e2m1 | e2m1 | 32 | 0000 | 0 | 15.0 | True | 128949 | 19042 | -17.0941 | 32.094 | 0.66434 |
+| trunc24_e5m2xe5m2_k32_p0000 | e5m2 | e5m2 | 32 | 0000 | 0 | 15.0 | True | 167204 | 25028 | -21.1947 | 36.195 | 1.44047 |

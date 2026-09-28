@@ -1,0 +1,4 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| e2m1xe2m1_k32_p0000_relax | e2m1 | e2m1 | 32 | 0000 | 0 | 32.009 | True | 62772.7 | 9705 | 0.00891021 | 32.0 | 0.546331 |
+| e5m2xe5m2_k32_p0000_relax | e5m2 | e5m2 | 32 | 0000 | 0 | 44.048 | True | 234714 | 38451 | 0.127176 | 43.921 | 1.35355 |

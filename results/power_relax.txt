@@ -1,0 +1,16 @@
+asap7 POWER e4m3xe4m3_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=6.89e-03 energy_pJ_per_op=6.89
+asap7 POWER trunc24_e4m3xe4m3_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=6.61e-03 energy_pJ_per_op=6.61
+asap7 POWER e5m2xe5m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=7.36e-03 energy_pJ_per_op=7.36
+asap7 POWER trunc24_e5m2xe5m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=5.75e-03 energy_pJ_per_op=5.75
+asap7 POWER e3m2xe3m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=4.72e-03 energy_pJ_per_op=4.72
+asap7 POWER trunc24_e3m2xe3m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=5.38e-03 energy_pJ_per_op=5.38
+asap7 POWER e2m3xe2m3_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=4.22e-03 energy_pJ_per_op=4.22
+asap7 POWER trunc24_e2m3xe2m3_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=5.27e-03 energy_pJ_per_op=5.27
+asap7 POWER e2m1xe2m1_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=2.49e-03 energy_pJ_per_op=2.49
+asap7 POWER trunc24_e2m1xe2m1_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=3.64e-03 energy_pJ_per_op=3.64
+asap7 POWER int8xint8_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=6.32e-03 energy_pJ_per_op=6.32
+asap7 POWER trunc24_int8xint8_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=7.63e-03 energy_pJ_per_op=7.63
+sky130hd POWER e2m1xe2m1_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=6.56e-03 energy_pJ_per_op=65.6
+sky130hd POWER trunc24_e2m1xe2m1_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=8.28e-03 energy_pJ_per_op=82.8
+sky130hd POWER e5m2xe5m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=1.78e-02 energy_pJ_per_op=178
+sky130hd POWER trunc24_e5m2xe5m2_k32_p0000_relax stage=cts vectors=512 mismatches=0 power_W=1.50e-02 energy_pJ_per_op=150

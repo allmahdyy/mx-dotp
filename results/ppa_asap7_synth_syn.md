@@ -1,0 +1,19 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| e4m3xe4m3_k32_p0000_syn | e4m3 | e4m3 | 32 | 0000 | 0 | 1500 | True | 2190.37 | 21809 | None | None | None |
+| e4m3xe4m3_k32_p1111_syn | e4m3 | e4m3 | 32 | 1111 | 4 | 500 | True | 2254.69 | 21550 | None | None | None |
+| e5m2xe5m2_k32_p0000_syn | e5m2 | e5m2 | 32 | 0000 | 0 | 1500 | True | 3359.79 | 33654 | None | None | None |
+| e5m2xe5m2_k32_p1111_syn | e5m2 | e5m2 | 32 | 1111 | 4 | 500 | True | 3342.74 | 32638 | None | None | None |
+| e3m2xe3m2_k32_p0000_syn | e3m2 | e3m2 | 32 | 0000 | 0 | 1500 | True | 1197.89 | 11916 | None | None | None |
+| e3m2xe3m2_k32_p1111_syn | e3m2 | e3m2 | 32 | 1111 | 4 | 500 | True | 1286.01 | 11982 | None | None | None |
+| e2m3xe2m3_k32_p0000_syn | e2m3 | e2m3 | 32 | 0000 | 0 | 1500 | True | 1058.92 | 10709 | None | None | None |
+| e2m3xe2m3_k32_p1111_syn | e2m3 | e2m3 | 32 | 1111 | 4 | 500 | True | 1198.52 | 11196 | None | None | None |
+| e2m1xe2m1_k32_p0000_syn | e2m1 | e2m1 | 32 | 0000 | 0 | 1500 | True | 719.713 | 7198 | None | None | None |
+| e2m1xe2m1_k32_p1111_syn | e2m1 | e2m1 | 32 | 1111 | 4 | 500 | True | 830.346 | 7609 | None | None | None |
+| int8xint8_k32_p0000_syn | int8 | int8 | 32 | 0000 | 0 | 1500 | True | 1791.09 | 18149 | None | None | None |
+| int8xint8_k32_p1111_syn | int8 | int8 | 32 | 1111 | 4 | 500 | True | 1966.94 | 18645 | None | None | None |
+| e4m3xe4m3_k8_p1111_syn | e4m3 | e4m3 | 8 | 1111 | 4 | 500 | True | 978.041 | 9037 | None | None | None |
+| e4m3xe4m3_k16_p1111_syn | e4m3 | e4m3 | 16 | 1111 | 4 | 500 | True | 1394.3 | 13080 | None | None | None |
+| e4m3xe4m3_k64_p1111_syn | e4m3 | e4m3 | 64 | 1111 | 4 | 500 | True | 3964.21 | 38180 | None | None | None |
+| e4m3xe5m2_k32_p1111_syn | e4m3 | e5m2 | 32 | 1111 | 4 | 500 | True | 2844.92 | 27553 | None | None | None |
+| e2m1xe4m3_k32_p1111_syn | e2m1 | e4m3 | 32 | 1111 | 4 | 500 | True | 1516.03 | 14112 | None | None | None |

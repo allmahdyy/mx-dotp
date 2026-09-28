@@ -1,0 +1,4 @@
+POWER e2m1xe2m1_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=7.69e-03 energy_pJ_per_op=76.9
+POWER trunc24_e2m1xe2m1_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=1.11e-02 energy_pJ_per_op=111
+POWER e5m2xe5m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=2.27e-02 energy_pJ_per_op=227
+POWER trunc24_e5m2xe5m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=1.76e-02 energy_pJ_per_op=176

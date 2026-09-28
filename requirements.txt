@@ -1,0 +1,4 @@
+cocotb>=1.9
+pytest>=8
+numpy>=1.26
+ml_dtypes>=0.5

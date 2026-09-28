@@ -1,0 +1,19 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| e4m3xe4m3_k32_p0000_syn | e4m3 | e4m3 | 32 | 0000 | 0 | 15.0 | True | 125736 | 17903 | None | None | None |
+| e4m3xe4m3_k32_p1111_syn | e4m3 | e4m3 | 32 | 1111 | 4 | 5.0 | True | 138615 | 18024 | None | None | None |
+| e5m2xe5m2_k32_p0000_syn | e5m2 | e5m2 | 32 | 0000 | 0 | 15.0 | True | 192998 | 28027 | None | None | None |
+| e5m2xe5m2_k32_p1111_syn | e5m2 | e5m2 | 32 | 1111 | 4 | 5.0 | True | 196507 | 26491 | None | None | None |
+| e3m2xe3m2_k32_p0000_syn | e3m2 | e3m2 | 32 | 0000 | 0 | 15.0 | True | 69776.9 | 9607 | None | None | None |
+| e3m2xe3m2_k32_p1111_syn | e3m2 | e3m2 | 32 | 1111 | 4 | 5.0 | True | 79309.8 | 9902 | None | None | None |
+| e2m3xe2m3_k32_p0000_syn | e2m3 | e2m3 | 32 | 0000 | 0 | 15.0 | True | 63288.2 | 8269 | None | None | None |
+| e2m3xe2m3_k32_p1111_syn | e2m3 | e2m3 | 32 | 1111 | 4 | 5.0 | True | 73183.9 | 8546 | None | None | None |
+| e2m1xe2m1_k32_p0000_syn | e2m1 | e2m1 | 32 | 0000 | 0 | 15.0 | True | 43332.8 | 6011 | None | None | None |
+| e2m1xe2m1_k32_p1111_syn | e2m1 | e2m1 | 32 | 1111 | 4 | 5.0 | True | 48676.7 | 5895 | None | None | None |
+| int8xint8_k32_p0000_syn | int8 | int8 | 32 | 0000 | 0 | 15.0 | True | 110332 | 12992 | None | None | None |
+| int8xint8_k32_p1111_syn | int8 | int8 | 32 | 1111 | 4 | 5.0 | True | 121086 | 12926 | None | None | None |
+| e4m3xe4m3_k8_p1111_syn | e4m3 | e4m3 | 8 | 1111 | 4 | 5.0 | True | 58089.5 | 7875 | None | None | None |
+| e4m3xe4m3_k16_p1111_syn | e4m3 | e4m3 | 16 | 1111 | 4 | 5.0 | True | 85110.4 | 11242 | None | None | None |
+| e4m3xe4m3_k64_p1111_syn | e4m3 | e4m3 | 64 | 1111 | 4 | 5.0 | True | 238386 | 30470 | None | None | None |
+| e4m3xe5m2_k32_p1111_syn | e4m3 | e5m2 | 32 | 1111 | 4 | 5.0 | True | 167391 | 22643 | None | None | None |
+| e2m1xe4m3_k32_p1111_syn | e2m1 | e4m3 | 32 | 1111 | 4 | 5.0 | True | 91087.4 | 11726 | None | None | None |

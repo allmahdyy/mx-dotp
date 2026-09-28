@@ -1,0 +1,3 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| e4m3xe4m3_k32_p1111 | e4m3 | e4m3 | 32 | 1111 | 4 | 500 | True | 2969.44 | 30521 | -1151.5 | 1651.5 | 0.206105 |

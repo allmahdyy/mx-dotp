@@ -1,0 +1,12 @@
+POWER e4m3xe4m3_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=8.96e-03 energy_pJ_per_op=8.96
+POWER trunc24_e4m3xe4m3_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=8.60e-03 energy_pJ_per_op=8.6
+POWER e5m2xe5m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=9.60e-03 energy_pJ_per_op=9.6
+POWER trunc24_e5m2xe5m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=7.42e-03 energy_pJ_per_op=7.42
+POWER e3m2xe3m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=6.05e-03 energy_pJ_per_op=6.05
+POWER trunc24_e3m2xe3m2_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=6.86e-03 energy_pJ_per_op=6.86
+POWER e2m3xe2m3_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=5.33e-03 energy_pJ_per_op=5.33
+POWER trunc24_e2m3xe2m3_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=6.81e-03 energy_pJ_per_op=6.81
+POWER e2m1xe2m1_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=3.15e-03 energy_pJ_per_op=3.15
+POWER trunc24_e2m1xe2m1_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=4.68e-03 energy_pJ_per_op=4.68
+POWER int8xint8_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=8.03e-03 energy_pJ_per_op=8.03
+POWER trunc24_int8xint8_k32_p0000 stage=cts vectors=512 mismatches=0 power_W=9.65e-03 energy_pJ_per_op=9.65

@@ -1,0 +1,3 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| e2m1xe2m1_k8_p0000_wrapped | e2m1 | e2m1 | 8 | 0000 | 0 | 1500 | True | 485.937 | 5159 | -1553.87 | 3053.87 | 0.135362 |

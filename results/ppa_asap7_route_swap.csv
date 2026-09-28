@@ -1,0 +1,2 @@
+config,fmt_a,fmt_b,K,pipe,stages,target,ok,area,cells,slack,delay,power
+e2m1xe2m1_k8_p0000_swap,e2m1,e2m1,8,0000,0,1500,True,504.351,5359,-1549.26,3049.26,0.140462

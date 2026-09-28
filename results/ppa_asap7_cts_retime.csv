@@ -1,0 +1,2 @@
+config,fmt_a,fmt_b,K,pipe,stages,target,ok,area,cells,slack,delay,power_vectorless
+e4m3xe4m3_k32_p1111_retime,e4m3,e4m3,32,1111,4,500,True,2732.63,27151,-1353.52,1853.52,0.199095

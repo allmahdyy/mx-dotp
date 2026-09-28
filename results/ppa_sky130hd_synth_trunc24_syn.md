@@ -1,0 +1,19 @@
+| config | fmt_a | fmt_b | K | pipe | stages | target | ok | area | cells | slack | delay | power_vectorless |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| trunc24_e4m3xe4m3_k32_p0000_syn | e4m3 | e4m3 | 32 | 0000 | 0 | 15.0 | True | 108196 | 14657 | None | None | None |
+| trunc24_e4m3xe4m3_k32_p1111_syn | e4m3 | e4m3 | 32 | 1111 | 4 | 5.0 | True | 126340 | 16061 | None | None | None |
+| trunc24_e5m2xe5m2_k32_p0000_syn | e5m2 | e5m2 | 32 | 0000 | 0 | 15.0 | True | 104076 | 14354 | None | None | None |
+| trunc24_e5m2xe5m2_k32_p1111_syn | e5m2 | e5m2 | 32 | 1111 | 4 | 5.0 | True | 118833 | 15453 | None | None | None |
+| trunc24_e3m2xe3m2_k32_p0000_syn | e3m2 | e3m2 | 32 | 0000 | 0 | 15.0 | True | 88223.4 | 11922 | None | None | None |
+| trunc24_e3m2xe3m2_k32_p1111_syn | e3m2 | e3m2 | 32 | 1111 | 4 | 5.0 | True | 104526 | 13430 | None | None | None |
+| trunc24_e2m3xe2m3_k32_p0000_syn | e2m3 | e2m3 | 32 | 0000 | 0 | 15.0 | True | 97853.8 | 12783 | None | None | None |
+| trunc24_e2m3xe2m3_k32_p1111_syn | e2m3 | e2m3 | 32 | 1111 | 4 | 5.0 | True | 116244 | 14578 | None | None | None |
+| trunc24_e2m1xe2m1_k32_p0000_syn | e2m1 | e2m1 | 32 | 0000 | 0 | 15.0 | True | 80458.4 | 11163 | None | None | None |
+| trunc24_e2m1xe2m1_k32_p1111_syn | e2m1 | e2m1 | 32 | 1111 | 4 | 5.0 | True | 90860.9 | 11898 | None | None | None |
+| trunc24_int8xint8_k32_p0000_syn | int8 | int8 | 32 | 0000 | 0 | 15.0 | True | 138929 | 17385 | None | None | None |
+| trunc24_int8xint8_k32_p1111_syn | int8 | int8 | 32 | 1111 | 4 | 5.0 | True | 162623 | 18850 | None | None | None |
+| trunc24_e4m3xe4m3_k8_p1111_syn | e4m3 | e4m3 | 8 | 1111 | 4 | 5.0 | True | 44322.5 | 5825 | None | None | None |
+| trunc24_e4m3xe4m3_k16_p1111_syn | e4m3 | e4m3 | 16 | 1111 | 4 | 5.0 | True | 70266.1 | 9083 | None | None | None |
+| trunc24_e4m3xe4m3_k64_p1111_syn | e4m3 | e4m3 | 64 | 1111 | 4 | 5.0 | True | 236492 | 30016 | None | None | None |
+| trunc24_e4m3xe5m2_k32_p1111_syn | e4m3 | e5m2 | 32 | 1111 | 4 | 5.0 | True | 120400 | 15553 | None | None | None |
+| trunc24_e2m1xe4m3_k32_p1111_syn | e2m1 | e4m3 | 32 | 1111 | 4 | 5.0 | True | 109217 | 14128 | None | None | None |
