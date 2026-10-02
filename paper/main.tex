@@ -1,21 +1,18 @@
 % DRAFT - numbers from results/final_tables.md (regenerate with syn/final_tables.py).
-% Items marked \todo{} need attention before submission.
 \documentclass[conference]{IEEEtran}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{siunitx}
-\usepackage{xcolor}
 \usepackage{url}
-\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
 
 \begin{document}
 
 \title{The Cost of Exactness in Microscaling Dot Products:\\
 An Open, Bit-Accurate Study Across All OCP MX Formats}
 
-\author{\IEEEauthorblockN{\todo{Author name}}
-\IEEEauthorblockA{\todo{Affiliation}\\ \todo{email}}}
+\author{\IEEEauthorblockN{Oussama Riahi}
+\IEEEauthorblockA{Independent Researcher\\ oussmahdi00@gmail.com}}
 
 \maketitle
 
@@ -59,7 +56,8 @@ fixed-point grid, sum without loss and round once~\cite{lutz2024fp8,desrentes202
 \emph{Anchored truncation} aligns all terms to the largest exponent and keeps
 a fixed window of $W$ bits, as in many-term dot-product units for machine
 learning~\cite{kaul2019dot,hickmann2020nnpt} and, per microbenchmarking,
-in GPU tensor cores~\cite{fasi2021tensor,rout2025tenfour}.  A third line of
+in GPU tensor cores up to the MX-capable Blackwell
+generation~\cite{fasi2021tensor,khattak2025tensor,rout2025tenfour}.  A third line of
 work reduces the accumulator precision further~\cite{cuyckens2025mx}.  Each
 design justifies its choice in its own context, with different formats,
 technologies and tools.  What is missing is a like-for-like measurement of
@@ -123,13 +121,27 @@ dot-product instruction to a RISC-V core, Cuyckens et
 al.~\cite{cuyckens2025mx} build precision-scalable datapaths for all six
 formats with a deliberately shortened accumulator, Ten-Four~\cite{rout2025tenfour}
 is an open fused dot-product unit matching NVIDIA tensor-core truncation, and
-Samson et al.~\cite{samson2024fpga} provide open FPGA MX arithmetic.  Van
+Samson et al.~\cite{samson2024fpga} provide open FPGA MX arithmetic.
+Closest to our question, Abdurakhmanov and Fahmy~\cite{abdurakhmanov2025mxfpga}
+compare exact (Kulisch-style) with BF16 accumulation in MXFP6 and MXFP8
+systolic arrays on FPGAs, reporting accuracy, resources and throughput.
+Khattak and Mikaitis~\cite{khattak2025tensor} build bit-accurate software
+models of NVIDIA tensor cores up to the Blackwell generation; like Fasi et
+al.~\cite{fasi2021tensor} they find products aligned to the largest
+exponent and truncated to a fixed number of fractional bits, i.e., the
+anchored-truncation policy we use as the baseline.
+% Khattak & Mikaitis reportedly measure 25 fractional bits for FP8 inputs on
+% a Blackwell GPU; confirm the figure in the full text before quoting it.
+Islam and Mikaitis~\cite{islam2026mxsim} provide a numerical MX simulator
+with configurable accumulator precision but no hardware cost.  Van
 Baalen et al.~\cite{vanbaalen2023fp8} argue qualitatively that fixed-point
 (Kulisch~\cite{kulisch}) accumulation suits INT8 while floating-point
 accumulation suits FP8; Uguen and de Dinechin~\cite{uguen2017kulisch}
-explore Kulisch accumulators on FPGAs.  To our knowledge no prior work
-compares exact and truncating MX dot products across all formats on a common
-flow with measured error and gate-level energy. \todo{re-check before submission}
+explore Kulisch accumulators on FPGAs.  To our knowledge this is the first
+comparison of exact and anchored-truncation MX dot products that covers all
+six MX element formats on an ASIC flow, with error measured against an exact
+reference and energy from gate-level simulation, using one shared,
+bit-verified code base for both policies.
 
 \section{Architectures}\label{sec:arch}
 Both units implement~\eqref{eq:dot} with a single round-to-nearest-even to
@@ -365,7 +377,8 @@ Whether an MX dot product should be exact depends on the format, and the
 dependence is simple: exactness costs in proportion to the exponent range.
 It is cheaper than truncation for four of the six formats, near free for
 E4M3, and costly only for E5M2.  The RTL, bit-accurate models, verification
-and flow scripts are available at \todo{repository URL} so that others can
+and flow scripts are available at
+\url{https://github.com/allmahdyy/mx-dotp} so that others can
 reproduce and extend these results.
 
 \bibliographystyle{IEEEtran}

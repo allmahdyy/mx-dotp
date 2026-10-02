@@ -1,37 +1,36 @@
-% Entries marked "VERIFY" were assembled from search results or memory and
-% must be checked against the published version (authors, pages, venue)
-% before submission.
+% Bibliographic details checked against publisher / archive pages (2026-10).
 
-@misc{ocp_mx,
-  author       = {Rouhani, Bita Darvish and others},
-  title        = {{OCP} Microscaling Formats ({MX}) Specification, Version 1.0},
-  howpublished = {Open Compute Project},
-  year         = {2023},
-  note         = {VERIFY author list}
+@techreport{ocp_mx,
+  author      = {Rouhani, Bita Darvish and Garegrat, Nitin and Savell, Tom and More, Ankit and Han, Kyung-Nam and Zhao, Ritchie and Hall, Mathew and Klar, Jasmine and Chung, Eric and Yu, Yuan and Schulte, Michael and Wittig, Ralph and Dubey, Pradeep and Cornea, Marius and Heinecke, Alexander and Rodriguez, Andres and Langhammer, Martin and Deng, Summer and Naumov, Maxim and Micikevicius, Paulius and Siu, Michael and Verrilli, Colin},
+  title       = {{OCP} Microscaling Formats ({MX}) Specification, Version 1.0},
+  institution = {Open Compute Project},
+  year        = {2023},
+  month       = sep,
+  url         = {https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf}
 }
 
 @inproceedings{lutz2024fp8,
   author    = {Lutz, David R. and Saini, Anisha and Kroes, Mairin and Elmer, Thomas and Valsaraju, Harsha},
   title     = {Fused {FP8} 4-Way Dot Product With Scaling and {FP32} Accumulation},
   booktitle = {Proc. IEEE 31st Symposium on Computer Arithmetic (ARITH)},
-  year      = {2024},
-  note      = {VERIFY pages}
+  address   = {M{\'a}laga, Spain},
+  pages     = {40--47},
+  year      = {2024}
 }
 
 @inproceedings{desrentes2023exact,
-  author    = {Desrentes, Orégane and Dupont de Dinechin, Benoît and Le Maire, Julien},
+  author    = {Desrentes, Or{\'e}gane and Dupont de Dinechin, Beno{\^\i}t and Le Maire, Julien},
   title     = {Exact Dot Product Accumulate Operators for 8-bit Floating-Point Deep Learning},
   booktitle = {Proc. 26th Euromicro Conference on Digital System Design (DSD)},
-  year      = {2023},
-  note      = {VERIFY}
+  year      = {2023}
 }
 
-@misc{cuyckens2025mx,
-  author       = {Cuyckens, Stef and others},
-  title        = {Precision-Scalable Microscaling Datapaths with Optimized Reduction Tree for Efficient {NPU} Integration},
-  howpublished = {arXiv:2511.06313},
-  year         = {2025},
-  note         = {VERIFY author list and venue}
+@inproceedings{cuyckens2025mx,
+  author    = {Cuyckens, Stef and Yi, Xiaoling and Geens, Robin and Dumoulin, Joren and Wiesner, Martin and Fang, Chao and Verhelst, Marian},
+  title     = {Precision-Scalable Microscaling Datapaths with Optimized Reduction Tree for Efficient {NPU} Integration},
+  booktitle = {Proc. 31st Asia and South Pacific Design Automation Conference (ASP-DAC)},
+  note      = {Invited paper; arXiv:2511.06313},
+  year      = {2026}
 }
 
 @misc{rout2025tenfour,
@@ -73,8 +72,34 @@
   author  = {Fasi, Massimiliano and Higham, Nicholas J. and Mikaitis, Mantas and Pranesh, Srikara},
   title   = {Numerical Behavior of {NVIDIA} Tensor Cores},
   journal = {PeerJ Computer Science},
+  volume  = {7},
+  pages   = {e330},
   year    = {2021},
-  note    = {VERIFY volume and article number}
+  doi     = {10.7717/peerj-cs.330}
+}
+
+@article{abdurakhmanov2025mxfpga,
+  author  = {Abdurakhmanov, Abdurauf and Fahmy, Suhaib A.},
+  title   = {Exploring Microscaling {MX} Minifloat Systolic Arrays on {FPGAs}},
+  journal = {ACM Transactions on Reconfigurable Technology and Systems},
+  volume  = {18},
+  number  = {4},
+  year    = {2025},
+  doi     = {10.1145/3773041}
+}
+
+@misc{khattak2025tensor,
+  author       = {Khattak, Faizan A. and Mikaitis, Mantas},
+  title        = {Accurate Models of {NVIDIA} Tensor Cores},
+  howpublished = {arXiv:2512.07004},
+  year         = {2025}
+}
+
+@misc{islam2026mxsim,
+  author       = {Islam, Maliha and Mikaitis, Mantas},
+  title        = {Simulation of Custom-Precision {OCP} {MX} Block Floating-Point Formats and Arithmetic},
+  howpublished = {arXiv:2607.12915},
+  year         = {2026}
 }
 
 @misc{vanbaalen2023fp8,
@@ -88,29 +113,33 @@
   author  = {Kulisch, Ulrich W. and Miranker, Willard L.},
   title   = {The Arithmetic of the Digital Computer: A New Approach},
   journal = {SIAM Review},
-  year    = {1986},
-  note    = {VERIFY volume/pages; any standard Kulisch reference will do}
+  volume  = {28},
+  number  = {1},
+  pages   = {1--40},
+  year    = {1986}
 }
 
-@inproceedings{uguen2017kulisch,
-  author    = {Uguen, Yohann and de Dinechin, Florent},
-  title     = {Design-Space Exploration for the {Kulisch} Accumulator},
-  booktitle = {VERIFY venue},
-  year      = {2017}
+@misc{uguen2017kulisch,
+  author       = {Uguen, Yohann and de Dinechin, Florent},
+  title        = {Design-Space Exploration for the {Kulisch} Accumulator},
+  howpublished = {HAL preprint hal-01488916},
+  year         = {2017},
+  url          = {https://hal.science/hal-01488916}
 }
 
 @article{clark2016asap7,
   author  = {Clark, Lawrence T. and Vashishtha, Vinay and Shifren, Lucian and Gujja, Aditya and Sinha, Saurabh and Cline, Brian and Ramamurthy, Chandarasekaran and Yeric, Greg},
   title   = {{ASAP7}: A 7-nm {FinFET} Predictive Process Design Kit},
   journal = {Microelectronics Journal},
-  year    = {2016},
-  note    = {VERIFY volume/pages}
+  volume  = {53},
+  pages   = {105--115},
+  year    = {2016}
 }
 
 @inproceedings{ajayi2019openroad,
   author    = {Ajayi, Tutu and others},
-  title     = {Toward an Open-Source Digital Flow: First Learnings from the {OpenROAD} Project},
-  booktitle = {Proc. 56th Design Automation Conference (DAC)},
+  title     = {{INVITED}: Toward an Open-Source Digital Flow: First Learnings from the {OpenROAD} Project},
+  booktitle = {Proc. 56th ACM/IEEE Design Automation Conference (DAC)},
   year      = {2019},
-  note      = {VERIFY}
+  doi       = {10.1145/3316781.3326334}
 }
