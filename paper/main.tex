@@ -1,5 +1,13 @@
 % DRAFT - numbers from results/final_tables.md (regenerate with syn/final_tables.py).
-\documentclass[conference]{IEEEtran}
+% IEEE Computer Society conference format (as required by ARITH: <= 8 pages
+% including references, double-blind - anonymise the author block and the
+% repository URL in the submitted version).
+\documentclass[conference,compsoc]{IEEEtran}
+\ifCLASSOPTIONcompsoc
+  \usepackage[nocompress]{cite}
+\else
+  \usepackage{cite}
+\fi
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
