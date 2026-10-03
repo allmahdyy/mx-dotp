@@ -19,8 +19,14 @@
 \title{The Cost of Exactness in Microscaling Dot Products:\\
 An Open, Bit-Accurate Study Across All OCP MX Formats}
 
+% main_anon.tex defines \ANON and \input{}s this file for double-blind review.
+\ifdefined\ANON
+\author{\IEEEauthorblockN{Anonymous Author(s)}
+\IEEEauthorblockA{Submission under double-blind review}}
+\else
 \author{\IEEEauthorblockN{Oussama Riahi}
 \IEEEauthorblockA{Independent Researcher\\ oussmahdi00@gmail.com}}
+\fi
 
 \maketitle
 
@@ -386,8 +392,25 @@ dependence is simple: exactness costs in proportion to the exponent range.
 It is cheaper than truncation for four of the six formats, near free for
 E4M3, and costly only for E5M2.  The RTL, bit-accurate models, verification
 and flow scripts are available at
-\url{https://github.com/allmahdyy/mx-dotp} so that others can
-reproduce and extend these results.
+\ifdefined\ANON
+\url{https://anonymous.4open.science/r/mx-dotp-arith}
+\else
+\url{https://github.com/allmahdyy/mx-dotp}
+\fi
+so that others can reproduce and extend these results.
+
+% IEEE requires AI-generated content (text, figures, code) to be disclosed in
+% the acknowledgments, naming the system and the parts it was used for.
+% Check the wording against IEEE's current author guidelines and make sure
+% it matches how the work was actually done.
+\section*{Acknowledgment}
+An AI assistant (Anthropic's Claude) was used throughout this work: to write
+and debug the RTL, the Python reference and bit-true models, the cocotb
+testbench and the synthesis, power and analysis scripts; to run the
+experiments; to produce the figures; and to draft the text of this paper.
+The author directed the study, reviewed the design, the verification
+results and the method decisions, checked the reported numbers against the
+raw data, and takes full responsibility for the content.
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}
